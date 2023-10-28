@@ -23,10 +23,15 @@ body {
 }
 .wrapper #star {
   border: 1px solid #262E38;
-  display: inline-block;
   border-radius: 50%;
-  padding: clamp(0.6125rem, 0.564rem + 0.207vw, 0.75rem);
+  width: clamp(2.5rem, 2.324rem + 0.751vw, 3rem);
+  height: clamp(2.5rem, 2.324rem + 0.751vw, 3rem);
+  padding: 0px;
   background-color: #262E38;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .wrapper h2 {
   color: white;
@@ -55,11 +60,11 @@ body {
 .wrapper .value {
   background-color: #262E38;
   color: #7C8798;
-  font-size: clamp(0.875rem, 0.8309859155rem + 0.1877934272vw, 1rem);
+  font-size: clamp(0.875rem, 0.831rem + 0.188vw, 1rem);
   font-weight: 700;
   border: 1px solid #262E38;
-  width: clamp(2.625rem, 2.4269366197rem + 0.8450704225vw, 3.1875rem);
-  height: clamp(2.625rem, 2.4269366197rem + 0.8450704225vw, 3.1875rem);
+  width: clamp(2.625rem, 2.427rem + 0.845vw, 3.1875rem);
+  height: clamp(2.625rem, 2.427rem + 0.845vw, 3.1875rem);
   border-radius: 50%;
 }
 .wrapper .value:hover {
@@ -78,7 +83,7 @@ body {
   border-radius: 1.40625rem;
   border: 0;
   font-family: "Overpass", sans-serif;
-  font-size: clamp(0.875rem, 0.8529929577rem + 0.0938967136vw, 0.9375rem);
+  font-size: clamp(0.875rem, 0.853rem + 0.0939vw, 0.9375rem);
   font-weight: 700;
   letter-spacing: 0.125rem;
 }
@@ -111,7 +116,7 @@ body {
 }
 .wrapper #thank-you #support {
   margin-top: 0;
-  width: clamp(17.4375rem, 16.0950704225rem + 5.7276995305vw, 21.25rem);
+  width: clamp(17.4375rem, 16.095rem + 5.728vw, 21.25rem);
 }
 
 .attribution {

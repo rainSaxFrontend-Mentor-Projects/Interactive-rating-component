@@ -30,10 +30,15 @@ body {
 
     #star {
         border: 1px solid $number-background;
-        display: inline-block;
         border-radius: 50%;
-        padding: clamp(0.6125rem, 0.564rem + 0.207vw, 0.75rem);
+        width: clamp(2.5rem, 2.324rem + 0.751vw, 3rem);
+        height: clamp(2.5rem, 2.324rem + 0.751vw, 3rem);
+        padding: 0px;
         background-color: $number-background;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     h2 {
@@ -70,11 +75,11 @@ body {
     .value {
         background-color: $number-background;
         color: $number-hover;
-        font-size: clamp(0.875rem, 0.8309859154929577rem + 0.18779342723004694vw, 1rem);
+        font-size: clamp(0.875rem, 0.831rem + 0.188vw, 1rem);
         font-weight: 700;
         border: 1px solid $number-background;
-        width: clamp(2.625rem, 2.42693661971831rem + 0.8450704225352111vw, 3.1875rem);
-        height: clamp(2.625rem, 2.42693661971831rem + 0.8450704225352111vw, 3.1875rem);
+        width: clamp(2.625rem, 2.427rem + 0.845vw, 3.1875rem);
+        height: clamp(2.625rem, 2.427rem + 0.845vw, 3.1875rem);
         border-radius: 50%;
     }
 
@@ -95,7 +100,7 @@ body {
             border-radius: 1.40625rem;
             border: 0;
             font-family: 'Overpass', sans-serif;
-            font-size: clamp(0.875rem, 0.8529929577464789rem + 0.09389671361502347vw, 0.9375rem);
+            font-size: clamp(0.875rem, 0.853rem + 0.0939vw, 0.9375rem);
             font-weight: 700;
             letter-spacing: 0.125rem;
         }
@@ -134,7 +139,7 @@ body {
 
         #support {
             margin-top: 0;
-            width: clamp(17.4375rem, 16.095070422535212rem + 5.727699530516431vw, 21.25rem);
+            width: clamp(17.4375rem, 16.095rem + 5.728vw, 21.25rem);
         }
     }
 }
